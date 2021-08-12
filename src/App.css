@@ -1,0 +1,17 @@
+.container {
+  background-color: rgb(230, 236, 236);
+  text-align: left;
+}
+#heading {
+  text-align: center;
+}
+#btn-search {
+  background-color: rgb(238, 139, 11);
+  border: black 2px solid;
+  border-radius: 6px;
+}
+#btn-clear {
+  background-color: rgb(113, 233, 97);
+  border: black 2px solid;
+  border-radius: 6px;
+}
