@@ -16,7 +16,7 @@ function App() {
   const getresult = async () => {
     try {
       const res = await axios.get(
-        `http://hn.algolia.com/api/v1/search?query=${query} `
+        `https://hn.algolia.com/api/v1/search?query=${query} `
       );
       setArticles(res.data.hits);
     } catch (error) {
